@@ -1,9 +1,12 @@
 const title = document.querySelector(".title");
+const heading = document.getElementById("text-head");
+const logo = document.getElementById("logo-head");
 
 title.addEventListener("mouseenter", () => {
-  title.innerHTML = "Keenan's Blog";
+  heading.setAttribute("class", "show-logo");
+  console.log("Working");
 });
 
-title.addEventListener("mouseleave", () => {
-  title.innerHTML = "K";
-});
+//title.addEventListener("mouseleave", () => {
+title.innerHTML = "K";
+//});
