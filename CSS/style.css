@@ -35,12 +35,21 @@ body {
   text-decoration: none;
   font-family: "Merriweather", serif;
   font-weight: 500;
-  color: white;
+  color: seashell;
   text-transform: capitalize;
+  transition: all 0.3s linear;
 }
 
-.active {
-  border: 2px solid white;
+.home-links:hover {
+  border: 2px solid seashell;
   border-radius: 20px;
   padding: 12px;
+  color: seashell;
+}
+.active {
+  border: 2px solid seashell;
+  border-radius: 20px;
+  padding: 12px;
+  color: #388087;
+  background-color: seashell;
 }
