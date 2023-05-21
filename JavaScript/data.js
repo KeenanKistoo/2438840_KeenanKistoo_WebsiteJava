@@ -1,3 +1,4 @@
+//Nav Bar Information:
 const details = [
   {
     title: "Blog Section",
@@ -29,3 +30,5 @@ const code = `<section class="heading">
   <li><a class="home-links" href="/HTML/essays.html">Essays</a></li>
 </ul>
 </section>`;
+
+//Blog Posts Information:
