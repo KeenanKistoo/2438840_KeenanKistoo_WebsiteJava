@@ -4,7 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Blog Section</title>
+    <link rel="stylesheet" href="/CSS/normalize.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
   </head>
-  <body></body>
+  <body onload="SetNavBar()" class="home-body">
+    <header class="nav-head">
+      <nav class="nav-bar"></nav>
+    </header>
+    <main class="main-body">
+      <h1 class="info">
+        This section comprises all the blog posts that I have completed
+        throughout this semester.
+      </h1>
+
+      <article class="blog-post">
+        <img src="/Icons/powerIcon.png" alt="Power-up Icon" class="blog-img" />
+        <p class="blog-date">Insert Date</p>
+        <h2 class="blog-head">Week #01</h2>
+        <p class="blog-desc">Insert Description</p>
+      </article>
+    </main>
+  </body>
+  <script src="/JavaScript/tools.js"></script>
+  <script src="/JavaScript/data.js"></script>
 </html>
