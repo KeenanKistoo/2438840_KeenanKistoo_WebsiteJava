@@ -32,3 +32,12 @@ const code = `<section class="heading">
 </section>`;
 
 //Blog Posts Information:
+const blogInfo = [
+  {
+    icon: null,
+    link: null,
+    heading: null,
+    desc: null,
+    date: null,
+  },
+];
