@@ -73,12 +73,17 @@ body {
 
 .blog {
   display: grid;
+  grid-template-columns: repeat(2, 50%);
+  width: 100vw;
+  height: 20rem;
+  justify-items: center;
+  align-items: center;
 }
 .blog-post {
   height: 15rem;
   width: 40vw;
   margin: 1rem;
-  background-color: rgba(201, 193, 187, 0.482);
+  background-color: rgba(218, 210, 203, 0.482);
   display: grid;
   grid-template-columns: 33% 67%;
   grid-template-rows: 33% 33% 33%;
@@ -89,7 +94,8 @@ body {
 
 .blog-img {
   width: 10rem;
-  background-color: rgba(131, 125, 121, 0.482);
+  background-color: rgba(228, 215, 208, 0.482);
+  border-radius: 1rem;
   padding: 0.25rem;
   margin-left: 2rem;
   grid-row: 2;
@@ -97,17 +103,28 @@ body {
 
 .blog-date {
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 3;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  margin-top: -1.5rem;
+  font-size: 0.65rem;
+  transition: all 0.2s linear;
+}
+
+.blog-date:hover {
+  font-size: 0.8rem;
 }
 
 .blog-head {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
   font-family: "Merriweather", serif;
   text-decoration: underline;
   color: #003d42;
   font-size: 1.25rem;
   text-align: center;
+  margin-bottom: -3rem;
+  transition: all 0.3s linear;
 }
 
 .blog-head:hover {
@@ -116,11 +133,16 @@ body {
 
 .blog-desc {
   grid-column: 2;
-  grid-row: 3;
-  margin-top: -30px;
+  grid-row: 2;
+  margin-top: 2rem;
   text-align: center;
   font-style: italic;
   font-family: "Merriweather", serif;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #194e53;
+  transition: all 0.2s linear;
+}
+
+.blog-desc:hover {
+  font-size: 0.75rem;
 }
