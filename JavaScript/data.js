@@ -2,42 +2,36 @@
 const details = [
   {
     title: "Blog Section",
-    classActive: "home-links active",
-    classInactive: "home-links",
+    classOne: "home-links",
+    classTwo: "home-links active",
+    classThree: "home-links",
+    classFour: "home-links",
+    classFive: "home-links",
   },
   {
     title: "Design Section",
-    classActive: "home-links active",
-    classInactive: "home-links",
+    classOne: "home-links active",
+    classTwo: "home-links",
+    classThree: "home-links",
+    classFour: "home-links",
+    classFive: "home-links",
   },
 ];
-
-const code = `<section class="heading">
-<h1 class="main-head">${details[0].title}</h1>
-</section>
-<section class="tabs">
-<!--Container-->
-<ul class="links">
-  <!--Indvidual Links-->
-  <li>
-    <a class="${details[0].classInactive}" href="/index.html">Homepage</a>
-  </li>
-  <li><a class="${details[0].classActive}" href="/HTML/blogs.html">Blogs</a></li>
-  <li><a class="home-links" href="/HTML/design.html">Designs</a></li>
-  <li>
-    <a class="home-links" href="/HTML/portfolio.html">Portfolio</a>
-  </li>
-  <li><a class="home-links" href="/HTML/essays.html">Essays</a></li>
-</ul>
-</section>`;
 
 //Blog Posts Information:
 const blogInfo = [
   {
-    icon: null,
-    link: null,
-    heading: null,
-    desc: null,
-    date: null,
+    icon: "/Icons/powerIcon.png",
+    link: "/index.html",
+    heading: "Week #01",
+    desc: "Insert Desc",
+    date: "Today",
+  },
+  {
+    icon: "/Icons/powerIcon.png",
+    link: "/index.html",
+    heading: "Week #01",
+    desc: "Insert Desc",
+    date: "Today",
   },
 ];
