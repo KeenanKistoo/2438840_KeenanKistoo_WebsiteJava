@@ -11,14 +11,14 @@ function SetNavBar(count) {
 <ul class="links">
   <!--Indvidual Links-->
   <li>
-    <a class="${details[count].classOne}" href="/index.html">Homepage</a>
+    <a class="${details[count].classHome}" href="/index.html">Homepage</a>
   </li>
-  <li><a class="${details[count].classTwo}" href="/HTML/blogs.html">Blogs</a></li>
-  <li><a class="${details[count].classThree}" href="/HTML/design.html">Designs</a></li>
+  <li><a class="${details[count].classBlog}" href="/HTML/blogs.html">Blogs</a></li>
+  <li><a class="${details[count].classDesign}" href="/HTML/design.html">Designs</a></li>
   <li>
-    <a class="${details[count].classFour}" href="/HTML/portfolio.html">Portfolio</a>
+    <a class="${details[count].classPort}" href="/HTML/portfolio.html">Portfolio</a>
   </li>
-  <li><a class="${details[count].classFive}" href="/HTML/essays.html">Essays</a></li>
+  <li><a class="${details[count].classEssay}" href="/HTML/essays.html">Essays</a></li>
 </ul>
 </section>`;
 }
@@ -45,5 +45,3 @@ const genBlogPosts = () => {
     })
     .join("");
 };
-
-genBlogPosts();
