@@ -32,6 +32,14 @@ const details = [
     classPort: "home-links",
     classEssay: "home-links active",
   },
+  {
+    title: "Blog Posts",
+    classHome: "home-links",
+    classBlog: "home-links",
+    classDesign: "home-links",
+    classPort: "home-links",
+    classEssay: "home-links ",
+  },
 ];
 
 //Blog Posts Information:
