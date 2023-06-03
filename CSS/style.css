@@ -146,18 +146,25 @@ body {
 .blog-desc:hover {
   font-size: 0.75rem;
 }
-
-.home-bg {
-  height: 50rem;
-  width: 100vw;
+.quote-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url("/Images/teal_background.jpg");
   margin-top: -0.9%;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  align-items: last baseline;
+  justify-content: center;
 }
 
 .quote {
   text-align: center;
-  margin-top: -13.2%;
-  margin-bottom: 13.2%;
-  font-size: 5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
   font-family: "Merriweather", serif;
   color: seashell;
   font-weight: lighter;
