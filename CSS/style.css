@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,wght@0,300;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 body {
   background-color: seashell;
@@ -11,8 +12,9 @@ body {
   width: 100%;
   height: 65px;
   margin: auto;
-  font-family: "Merriweather", serif;
-  font-size: 40px;
+  /*font-family: "Merriweather", serif;*/
+  font-family: "Gelasio", serif;
+  font-size: 3.3rem;
   font-weight: lighter;
   color: #003d42;
 }
@@ -33,8 +35,8 @@ body {
   height: 5rem;
   margin: 5rem;
   text-decoration: none;
-  font-family: "Merriweather", serif;
-  font-weight: 500;
+  font-family: "Gelasio", serif;
+  font-size: 1.1rem;
   color: seashell;
   text-transform: capitalize;
   transition: all 0.3s linear;
@@ -164,15 +166,30 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
-  font-family: "Merriweather", serif;
+  font-size: 5rem;
+  /*font-family: "Merriweather", serif;*/
+  font-family: "Gelasio", serif;
+  font-weight: lighter;
   color: seashell;
   font-weight: lighter;
 }
 .main-links {
   display: flex;
+  height: 12rem;
+  width: 100vwh;
+  background-color: #17484b;
+  justify-content: space-between;
+  align-items: first baseline;
 }
 
+.foot-links {
+  list-style: none;
+  color: seashell;
+}
 .web-links {
   list-style: none;
+}
+h3.foot-head {
+  color: rgb(190, 199, 202);
+  margin-left: 5%;
 }
