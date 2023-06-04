@@ -22,7 +22,7 @@ body {
 .links {
   height: 55px;
   width: 100%;
-  background-color: #388087;
+  background-color: #c2decd;
   list-style: none;
   display: flex;
   padding: 5px;
@@ -37,16 +37,16 @@ body {
   text-decoration: none;
   font-family: "Gelasio", serif;
   font-size: 1.1rem;
-  color: seashell;
+  color: #003d42;
   text-transform: capitalize;
   transition: all 0.3s linear;
 }
 
 .home-links:hover {
-  border: 2px solid seashell;
+  border: 2px solid #003d42;
   border-radius: 20px;
   padding: 12px;
-  color: seashell;
+  color: #003d42;
 }
 .active {
   border: 2px solid seashell;
@@ -152,7 +152,7 @@ body {
   position: relative;
   width: 100%;
   height: 80vh;
-  background: url("/Images/teal_background.jpg");
+  background: url("/Images/textured_background.jpg");
   margin-top: -0.9%;
   background-size: 100%;
   background-position: center;
@@ -172,6 +172,10 @@ body {
   font-weight: lighter;
   color: seashell;
   font-weight: lighter;
+  background-color: rgba(128, 128, 128, 0.159);
+  border-radius: 1rem;
+  backdrop-filter: blur;
+  padding: 1rem;
 }
 .main-links {
   display: flex;
@@ -192,4 +196,37 @@ body {
 h3.foot-head {
   color: rgb(190, 199, 202);
   margin-left: 5%;
+}
+
+.info-sect {
+  background-color: grey;
+  height: 40rem;
+  width: 80vw;
+  display: grid;
+  grid-template-rows: 15% 30% 55%;
+  grid-template-columns: repeat(4, 25%);
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.sub-head {
+  text-align: center;
+}
+.head-link {
+  color: #003d42;
+  display: block;
+  font-family: "Gelasio", serif;
+  font-size: 3rem;
+  align-items: center;
+  margin: auto;
+  margin: auto;
+}
+
+.desc {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Gelasio", serif;
 }
