@@ -180,10 +180,11 @@ body {
 .main-links {
   display: flex;
   height: 12rem;
-  width: 100vwh;
+  width: 100vw;
   background-color: #17484b;
-  justify-content: space-between;
-  align-items: first baseline;
+  justify-content: space-around;
+  align-items: center;
+  place-items: center;
 }
 
 .foot-links {
@@ -199,11 +200,11 @@ h3.foot-head {
 }
 
 .info-sect {
-  background-color: grey;
+  /*background-color: grey;*/
   height: 40rem;
   width: 80vw;
   display: grid;
-  grid-template-rows: 15% 30% 55%;
+  grid-template-rows: 1;
   grid-template-columns: repeat(4, 25%);
   padding: 1%;
   align-items: center;
@@ -211,10 +212,37 @@ h3.foot-head {
   margin: auto;
   margin-top: 1%;
   margin-bottom: 1%;
+  place-items: center;
+  grid-gap: 5rem;
+}
+.home-info {
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 12% 56% 32%;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  border: #003d42 3px solid;
+  border-radius: 1rem;
+  background-color: seashell;
 }
 .sub-head {
   text-align: center;
+  place-content: last baseline;
+  grid-row: 1;
+  margin-top: 5%;
+  display: flex;
+  justify-content: last baseline;
+  align-items: baseline;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0%;
+  background-color: #c2decd;
 }
+
 .head-link {
   color: #003d42;
   display: block;
@@ -226,7 +254,45 @@ h3.foot-head {
 }
 
 .desc {
-  text-align: center;
+  width: 100%;
+  height: 100%;
   font-size: 1.5rem;
   font-family: "Gelasio", serif;
+  grid-row: 3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #c2decd;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  align-items: center;
+  color: #003d42;
+}
+.home-image {
+  height: 15rem;
+  margin-top: 1%;
+  padding: 5%;
+}
+#blog-image {
+  grid-column: 1;
+  grid-row: 2;
+  align-items: center;
+}
+
+.blog-para {
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  font-family: "Gelasio", serif;
+  color: #003d42;
+}
+
+.blog-sub-head {
+  font-size: 3rem;
+  margin-bottom: -0.1%;
+  margin-top: -1%;
+}
+
+.blog-text {
+  font-size: 1.2rem;
 }

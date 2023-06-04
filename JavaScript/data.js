@@ -10,9 +10,9 @@ const details = [
   },
   {
     title: "Design Section",
-    classHome: "home-links active",
+    classHome: "home-links",
     classBlog: "home-links",
-    classDesign: "home-links",
+    classDesign: "home-links active",
     classPort: "home-links",
     classEssay: "home-links",
   },
@@ -46,16 +46,43 @@ const details = [
 const blogInfo = [
   {
     icon: "/Icons/powerIcon.png",
-    link: "/index.html",
+    link: "/HTML/BlogPosts/blog-post1.html",
     heading: "Week #01",
     desc: "Insert Desc",
     date: "Today",
   },
   {
     icon: "/Icons/powerIcon.png",
-    link: "/index.html",
+    link: "",
     heading: "Week #01",
     desc: "Insert Desc",
     date: "Today",
+  },
+];
+
+const homeData = [
+  {
+    title: "Blog Section",
+    link: "",
+    img: "/Icons/blog.png",
+    desc: "This section comprises of the discussions, reflections and thoughts during my first semester of Interactive Media III in 2023.",
+  },
+  {
+    title: "Design Section",
+    link: "",
+    img: "/Icons/blog.png",
+    desc: "This section comprises of the discussions, reflections and thoughts during my first semester of Interactive Media III in 2023.",
+  },
+  {
+    title: "Portfolio",
+    link: "",
+    img: "/Icons/blog.png",
+    desc: "This section comprises of the discussions, reflections and thoughts during my first semester of Interactive Media III in 2023.",
+  },
+  {
+    title: "Essay Section",
+    link: "",
+    img: "/Icons/blog.png",
+    desc: "This section comprises of the discussions, reflections and thoughts during my first semester of Interactive Media III in 2023.",
   },
 ];

@@ -45,3 +45,30 @@ const genBlogPosts = () => {
     })
     .join("");
 };
+
+let homeInfo = document.querySelector(".info-sect");
+
+const genWebInfo = () => {
+  homeInfo.innerHTML = homeData
+    .map((homeDisplay) => {
+      const { title, img, link, desc } = homeDisplay;
+      return `<section class="home-info">
+    <h2 class="sub-head">
+      <a class="head-link" id="blog-tab" href="${link}"
+        >${title}</a
+      >
+    </h2>
+    <img
+      class="home-image"
+      id="blog-image"
+      src="${img}"
+      alt="Blog image"
+    />
+
+    <p class="desc" >
+      ${desc}
+    </p>
+  </section>`;
+    })
+    .join("");
+};
