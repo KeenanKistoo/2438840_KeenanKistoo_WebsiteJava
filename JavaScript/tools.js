@@ -72,3 +72,9 @@ const genWebInfo = () => {
     })
     .join("");
 };
+
+let footer = document.querySelector(".footer");
+
+const FooterSet = () => {
+  footer.innerHTML = footerCode;
+};

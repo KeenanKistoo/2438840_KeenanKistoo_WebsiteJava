@@ -110,6 +110,7 @@ body {
   font-style: italic;
   margin-top: -1.5rem;
   font-size: 0.65rem;
+  text-transform: uppercase;
   transition: all 0.2s linear;
 }
 
@@ -122,6 +123,7 @@ body {
   grid-row: 1;
   font-family: "Merriweather", serif;
   text-decoration: underline;
+  text-transform: uppercase;
   color: #003d42;
   font-size: 1.25rem;
   text-align: center;
@@ -140,13 +142,13 @@ body {
   text-align: center;
   font-style: italic;
   font-family: "Merriweather", serif;
-  font-size: 0.65rem;
+  font-size: 0.85rem;
   color: #194e53;
   transition: all 0.2s linear;
 }
 
 .blog-desc:hover {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
 }
 .quote-section {
   position: relative;
@@ -181,6 +183,7 @@ body {
   display: flex;
   height: 12rem;
   width: 100vw;
+
   background-color: #17484b;
   justify-content: space-around;
   align-items: center;
@@ -190,13 +193,32 @@ body {
 .foot-links {
   list-style: none;
   color: seashell;
+  font-family: "Gelasio", serif;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.foot-links:hover {
+  text-decoration: underline;
 }
 .web-links {
   list-style: none;
+  margin-top: -10%;
+  margin-left: -25%;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 h3.foot-head {
-  color: rgb(190, 199, 202);
+  font-family: "Gelasio", serif;
+  color: aliceblue;
   margin-left: 5%;
+  font-size: 1.5rem;
+}
+
+#web-head {
+  grid-row: 1;
+  grid-column: 1;
 }
 
 .info-sect {
@@ -295,4 +317,23 @@ h3.foot-head {
 
 .blog-text {
   font-size: 1.2rem;
+}
+
+.port-para {
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  font-family: "Gelasio", serif;
+  color: #003d42;
+}
+
+.port-sub-head {
+  font-size: 3rem;
+  margin-bottom: -0.1%;
+  margin-top: -1%;
+}
+
+.port-text {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
 }
