@@ -27,14 +27,14 @@ let blogSection = document.querySelector(".blog");
 const genBlogPosts = () => {
   blogSection.innerHTML = blogInfo
     .map((blogPost) => {
-      const { icon, link, heading, desc, date } = blogPost;
+      const { icon, link, heading, desc, date, dataCode } = blogPost;
       return `<article class="blog-post">
     <img
       src="${icon}"
       alt=""
       class="blog-img"
     />
-    <a href="${link}" class="blog-head"
+    <a data-week="${dataCode}"href="${link}" class="blog-head"
       >${heading}</a
     >
     <p class="blog-desc">
@@ -45,6 +45,13 @@ const genBlogPosts = () => {
     })
     .join("");
 };
+
+let blogLink = document.querySelector(".blog-head");
+let subHead = document.querySelector(".blog-sub-head");
+
+blogLink.addEventListener("click", function (event) {
+  subHead.innerHTML = "This is working";
+});
 
 let homeInfo = document.querySelector(".info-sect");
 
@@ -78,3 +85,6 @@ let footer = document.querySelector(".footer");
 const FooterSet = () => {
   footer.innerHTML = footerCode;
 };
+
+let blogSub = document.querySelector(".blog-sub-head");
+let link = document.querySelector;

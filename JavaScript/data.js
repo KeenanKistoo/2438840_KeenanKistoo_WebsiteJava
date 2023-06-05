@@ -50,6 +50,7 @@ const blogInfo = [
     heading: "WEEK #01 - INTRODUCTION TO INTERACTIVE MEDIA",
     desc: "I discuss a few readings and touch on my experience with GitHub.",
     date: "FEBRUARY 27, 2023",
+    dataCode: "week-1",
   },
   {
     icon: "/Icons/htmlIcon.png",
@@ -57,6 +58,7 @@ const blogInfo = [
     heading: "WEEK #02 - HTML FUNDAMENTALS",
     desc: "My first interaction with HTML as a programming language.",
     date: "MARCH 6, 2023",
+    dataCode: "week-2",
   },
   {
     icon: "/Icons/cssIcon.png",
@@ -64,6 +66,7 @@ const blogInfo = [
     heading: "WEEK #03 - WEBSITE PROGRESS & CSS FUNDAMENTALS",
     desc: "My first interaction with HTML as a programming language.",
     date: "MARCH 10, 2023",
+    dataCode: "week-3",
   },
   {
     icon: "/Icons/jsIcon.png",
@@ -71,6 +74,7 @@ const blogInfo = [
     heading: "WEEK #04 - USER INTERFACE AND JAVASCRIPT",
     desc: "I dive a little deeper into UI and I also reflect on my experience with JavaScript.",
     date: "MARCH 20, 2023",
+    dataCode: "week-4",
   },
   {
     icon: "/Icons/tickIcon.png",
@@ -78,6 +82,7 @@ const blogInfo = [
     heading: "WEEK #05 & #06 BLOGS & REFLECTION",
     desc: "My final analysis before submission",
     date: "April 15, 2023",
+    dataCode: "week-5",
   },
   {
     icon: "/Icons/wwwIcon.png",
@@ -85,6 +90,7 @@ const blogInfo = [
     heading: "WEEK #07 - FINAL THOUGHTS ON MY WEBSITE",
     desc: "I discuss my website and some of the concepts that I have worked with throughout my progress.",
     date: "April 7, 2023",
+    dataCode: "week-7",
   },
 ];
 
