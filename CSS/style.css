@@ -336,6 +336,24 @@ h3.foot-head {
   font-size: 1.2rem;
 }
 
+.inspo-text {
+  font-size: 1.8rem;
+  color: #003d42;
+  transition: all 0.2s linear;
+}
+
+.inspo-text:hover {
+  font-size: 2rem;
+}
+
+#inspo-alter {
+  margin-bottom: 1.2rem;
+}
+
+#wire-alter {
+  margin-bottom: 1%;
+}
+
 .img-grid {
   height: 30rem;
   width: 80vw;
@@ -351,6 +369,21 @@ h3.foot-head {
 .wireframe {
   width: 25rem;
   height: 18rem;
+}
+
+.wireframe-two {
+  width: 35rem;
+  height: 22rem;
+}
+.image-texture {
+  width: 25rem;
+  height: 18rem;
+  border: #003d42 0.5rem solid;
+}
+.image-flow {
+  width: 32rem;
+  height: 23rem;
+  border: #003d42 0.5rem solid;
 }
 .port-para {
   padding: 1rem;
