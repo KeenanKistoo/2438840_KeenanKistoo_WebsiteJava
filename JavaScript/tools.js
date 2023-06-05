@@ -23,7 +23,7 @@ function SetNavBar(count) {
 </section>`;
 }
 let blogSection = document.querySelector(".blog");
-
+let ready = false;
 const genBlogPosts = () => {
   blogSection.innerHTML = blogInfo
     .map((blogPost) => {
@@ -34,9 +34,7 @@ const genBlogPosts = () => {
       alt=""
       class="blog-img"
     />
-    <a data-week="${dataCode}"href="${link}" class="blog-head"
-      >${heading}</a
-    >
+    <a data-week="${dataCode}" href="${link}" class="blog-head">${heading}</a>
     <p class="blog-desc">
       ${desc}
     </p>
@@ -44,6 +42,8 @@ const genBlogPosts = () => {
   </article>`;
     })
     .join("");
+  ready = true;
+  //console.log(ready);
 };
 
 let blogLink = document.querySelector(".blog-head");
@@ -132,3 +132,20 @@ const genBlogSemTwo = () => {
 let semTwo = document.getElementById("second-button");
 
 semTwo.addEventListener("click", genBlogSemTwo);
+
+let blogHead = document.getElementById("head-blog");
+
+document.addEventListener("DOMContentLoaded", function () {
+  genBlogPosts(); // Call the function to generate the blog posts
+  let buttonTest = document.querySelector(".button-change");
+  if (buttonTest) {
+    buttonTest.addEventListener("click", BlogRep);
+  } else {
+    console.log("Button element not found");
+  }
+});
+
+function BlogRep() {
+  blogHead.innerHTML = "Check";
+  print();
+}

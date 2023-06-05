@@ -47,7 +47,7 @@ const blogInfo = [
   {
     id: 0,
     icon: "/Icons/powerIcon.png",
-    link: "/HTML/BlogPosts/blog-post1.html",
+    link: "#",
     heading: "WEEK #01 - INTRODUCTION TO INTERACTIVE MEDIA",
     desc: "I discuss a few readings and touch on my experience with GitHub.",
     date: "FEBRUARY 27, 2023",

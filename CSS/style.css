@@ -438,3 +438,61 @@ h3.foot-head {
   color: #c2decd;
   cursor: pointer;
 }
+
+.blog-display {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  row-gap: 1rem;
+  background-color: seashell;
+  margin-top: 12rem;
+  transform: translate(-100%);
+  display: grid;
+  grid-template-rows: 15rem;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.show {
+  transform: translate(0);
+}
+.blog-display-post {
+  padding: 1rem;
+  text-align: center;
+  font-family: "Gelasio", serif;
+  color: #003d42;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.button-change {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: transparent;
+  border: transparent;
+  font-family: "Gelasio", serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #003d42;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: -3rem;
+  transition: all 0.3s linear;
+}
+
+.button-change:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blog-sub-head {
+  font-size: 3rem;
+  margin-bottom: -0.1%;
+  margin-top: -1%;
+}
+
+#head-blog {
+  grid-row: 1;
+  grid-column: 2;
+}
