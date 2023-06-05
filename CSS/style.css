@@ -407,3 +407,34 @@ h3.foot-head {
 #head-alter {
   margin-top: 0.05%;
 }
+
+.filter-buttons-sect {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: 1;
+  width: 40vw;
+  height: 1rem;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 2%;
+  font-family: "Gelasio", serif;
+  color: #003d42;
+  font-size: 1.2rem;
+}
+.icon-up {
+  width: 1.5rem;
+}
+
+.button-hover {
+  background-color: #c2decd;
+  transition: 0.2ms all linear;
+  color: #003d42;
+  font-size: 1.2rem;
+}
+
+.button-hover:hover {
+  background-color: #003d42;
+  color: #c2decd;
+  cursor: pointer;
+}
