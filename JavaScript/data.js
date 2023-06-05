@@ -107,7 +107,7 @@ const blogInfo = [
     date: "April 21, 2023",
     dataCode: "week-8",
   },
-  {
+  /*{
     id: 7,
     icon: "/Icons/wwwIcon.png",
     link: "/HTML/BlogPosts/blog-post8.html",
@@ -115,7 +115,7 @@ const blogInfo = [
     desc: "This was a challenging task for me as I often ramble on when writing but, I now see the importance of active reading.",
     date: "April 28, 2023",
     dataCode: "week-9",
-  },
+  },*/
   {
     id: 8,
     icon: "/Icons/wwwIcon.png",
@@ -148,8 +148,8 @@ const blogInfo = [
     id: 11,
     icon: "/Icons/wwwIcon.png",
     link: "/HTML/BlogPosts/blog-post12.html",
-    heading: "WEEK #13 - Research task",
-    desc: "I reflect on the reading and discuss how I believe inclusivity can be achieved.",
+    heading: "WEEK #13 -Reflection on Submission",
+    desc: "I reflect on the reading and discuss how I believe inclusivity can be achieved. This is repeated in my design section",
     date: "May 23, 2023",
     dataCode: "week-10",
   },
