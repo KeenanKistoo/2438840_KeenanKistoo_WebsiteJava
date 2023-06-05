@@ -88,9 +88,9 @@ const FooterSet = () => {
 
 let allButton = document.getElementById("all-button");
 
-allButton.addEventListener("click", function (event) {
-  genBlogPosts();
-});
+//allButton.addEventListener("click", function (event) {
+//genBlogPosts();
+//});
 
 const blogSect = document.querySelector(".blog");
 const genBlogSemOne = () => {
